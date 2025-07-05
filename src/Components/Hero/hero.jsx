@@ -7,7 +7,7 @@ const hero = () => {
   return (
     <div id='home' className='hero'>
         <img src={profile} alt="Profile" className='profile'/>
-        <h1><span>I'm Varsha Sanjay Alate </span>, Full Stack Developer Trainee</h1>
+        <h1><span>I'm Varsha Sanjay Alate </span>, Full Stack Developer</h1>
         <p>Enthusiastic and motivated professional in the IT industry, eager to contribute to a dynamic organization. Ready to apply my skills and embrace challenges to kickstart a successful career. Seeking an opportunity to grow and make a meaningful impact.</p>
         <div className="hero-action">
             <div className="hero-connect"><AnchorLink className='anchor-link' offset={50} href='#contact'>Connect With Me</AnchorLink></div>

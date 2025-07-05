@@ -6,7 +6,7 @@ import profile from '../../assets/varshaalate.png'
 
 const about = () => {
     return (
-        
+
         <div id='aboutme' className='about'>
             <div className="about-title">
                 <h1>About Me</h1>
@@ -26,17 +26,17 @@ const about = () => {
                         <div className="aboutskills">
                             <p>HTML & CSS</p>
                             <div className="progress-container">
-                                <div className="progress-bar" style={{ width: '70%' }}></div>
+                                <div className="progress-bar" style={{ width: '65%' }}></div>
                             </div>
-                            <span className="percentage">70%</span>
+                            <span className="percentage">65%</span>
                         </div>
 
                         <div className="aboutskills">
                             <p>C </p>
                             <div className="progress-container">
-                                <div className="progress-bar" style={{ width: '70%' }}></div>
+                                <div className="progress-bar" style={{ width: '65%' }}></div>
                             </div>
-                            <span className="percentage">70%</span>
+                            <span className="percentage">65%</span>
                         </div>
 
                         <div className="aboutskills">
@@ -50,17 +50,17 @@ const about = () => {
                         <div className="aboutskills">
                             <p>Angular</p>
                             <div className="progress-container">
-                                <div className="progress-bar" style={{ width: '70%' }}></div>
+                                <div className="progress-bar" style={{ width: '65%' }}></div>
                             </div>
-                            <span className="percentage">70%</span>
+                            <span className="percentage">65%</span>
                         </div>
 
                         <div className="aboutskills">
                             <p>Ionic Framework</p>
                             <div className="progress-container">
-                                <div className="progress-bar" style={{ width: '70%' }}></div>
+                                <div className="progress-bar" style={{ width: '65%' }}></div>
                             </div>
-                            <span className="percentage">70%</span>
+                            <span className="percentage">65%</span>
                         </div>
 
                         <div className="aboutskills">
@@ -90,12 +90,56 @@ const about = () => {
                         <div className="aboutskills">
                             <p>Bootstrap</p>
                             <div className="progress-container">
-                                <div className="progress-bar" style={{ width: '70%' }}></div>
+                                <div className="progress-bar" style={{ width: '60%' }}></div>
                             </div>
-                            <span className="percentage">70%</span>
+                            <span className="percentage">60%</span>
                         </div>
 
-                       
+                        <div className="aboutskills">
+                            <p>Laravel</p>
+                            <div className="progress-container">
+                                <div className="progress-bar" style={{ width: '45%' }}></div>
+                            </div>
+                            <span className="percentage">45%</span>
+                        </div>
+
+                        <div className="aboutskills">
+                            <p>React</p>
+                            <div className="progress-container">
+                                <div className="progress-bar" style={{ width: '45%' }}></div>
+                            </div>
+                            <span className="percentage">45%</span>
+                        </div>
+
+
+                        <div className="aboutskills">
+                            <p>Git</p>
+                            <div className="progress-container">
+                                <div className="progress-bar" style={{ width: '45%' }}></div>
+                            </div>
+                            <span className="percentage">45%</span>
+                        </div>
+
+
+
+                        <div className="aboutskills">
+                            <p>GitHub</p>
+                            <div className="progress-container">
+                                <div className="progress-bar" style={{ width: '45%' }}></div>
+                            </div>
+                            <span className="percentage">45%</span>
+                        </div>
+
+
+                        <div className="aboutskills">
+                            <p>JSON</p>
+                            <div className="progress-container">
+                                <div className="progress-bar" style={{ width: '55%' }}></div>
+                            </div>
+                            <span className="percentage">55%</span>
+                        </div>
+
+
                     </div>
                 </div>
             </div>
