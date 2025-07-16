@@ -139,13 +139,21 @@ const about = () => {
                             <span className="percentage">55%</span>
                         </div>
 
+                        <div className="aboutskills">
+                            <p>DOCKER</p>
+                            <div className="progress-container">
+                                <div className="progress-bar" style={{ width: '20%' }}></div>
+                            </div>
+                            <span className="percentage">20%</span>
+                        </div>
+
 
                     </div>
                 </div>
             </div>
             <div className="about-achievement">
                 <div className="aboutachievements">
-                    <h1>1+</h1>
+                    <h1>2+</h1>
                     <p>Years Of Experience</p>
                 </div>
                 <hr />

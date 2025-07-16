@@ -30,6 +30,14 @@ const mywork = () => {
       image: game,
       skills: ['React', 'JavaScript', 'HTML', 'CSS'],
     },
+
+    {
+      title: 'A2ZAdmission Portal',
+      description:
+        'Developing a student portal application using Angular, Laravel, and Ionic to simplify access to academic information and streamline application processes. Creating an admin interface to manage content and student data, aiming to reduce manual administrative tasks by 70%. Enhancing the frontend structure for improved mobile responsiveness and a better overall user experience.',
+      image: game,
+      skills: ['Angular', 'Ionic', 'Laravel', 'Typescript'],
+    },
   ];
   return (
     <div id='mywork' className='mywork'>
