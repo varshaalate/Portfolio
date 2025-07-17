@@ -14,14 +14,14 @@ const mywork = () => {
       description:
         'Developed a mobile application to streamline agent-client communication, providing real-time access to agent details and facilitating seamless interaction. Contributed to the Admin Panel to support user management, data entry, and reporting. Led the transition from paper-based to digital processes, implementing end-to-end tracking for product handling and location to enable real-time monitoring and lifecycle analysis, significantly enhancing operational efficiency.',
       image: app,
-      skills: ['Angular', 'Ionic', 'HTML', 'CSS', 'JavaScript'],
+      skills: ['Angular', 'Ionic', 'HTML', 'CSS', 'JavaScript' , 'Typescript'],
     },
     {
       title: 'Personal Portfolio',
       description:
         'Built a personal portfolio website to showcase my projects and skills. Designed and implemented a responsive layout using React, HTML, and CSS to provide an engaging user experience. The portfolio includes project showcases, a bio section, and contact information.',
       image: port,
-      skills: ['React', 'HTML', 'CSS'],
+      skills: ['React', 'HTML', 'CSS' , 'Javascript'],
     },
     {
       title: 'Connect 4 Game',
@@ -36,7 +36,7 @@ const mywork = () => {
       description:
         'Developing a student portal application using Angular, Laravel, and Ionic to simplify access to academic information and streamline application processes. Creating an admin interface to manage content and student data, aiming to reduce manual administrative tasks by 70%. Enhancing the frontend structure for improved mobile responsiveness and a better overall user experience.',
       image: game,
-      skills: ['Angular', 'Ionic', 'Laravel', 'Typescript'],
+      skills: ['Angular', 'Ionic', 'Laravel', 'Typescript', 'HTML', 'CSS'],
     },
   ];
   return (
