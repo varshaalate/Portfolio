@@ -68,6 +68,10 @@
     height: 16rem;
     width: 14rem;
 }
+.skillbarimg-3{
+    height: 15rem;
+    width: 10rem;
+}
 .skillbartext>p{
     font-size:18px;
     font-weight: 300;

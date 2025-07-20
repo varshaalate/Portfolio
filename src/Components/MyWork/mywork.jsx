@@ -5,6 +5,7 @@ import theme from '../../assets/theme_pattern.svg'
 import app from '../../assets/app.jpeg'
 import port from '../../assets/port.png'
 import game from '../../assets/game.png'
+import a2zadmission from '../../assets/a2zadmission.jpeg'
 
 const mywork = () => {
 
@@ -35,7 +36,7 @@ const mywork = () => {
       title: 'A2ZAdmission Portal',
       description:
         'Developing a student portal application using Angular, Laravel, and Ionic to simplify access to academic information and streamline application processes. Creating an admin interface to manage content and student data, aiming to reduce manual administrative tasks by 70%. Enhancing the frontend structure for improved mobile responsiveness and a better overall user experience.',
-      image: game,
+      image: a2zadmission,
       skills: ['Angular', 'Ionic', 'Laravel', 'Typescript', 'HTML', 'CSS'],
     },
   ];
@@ -48,28 +49,7 @@ const mywork = () => {
     
       <div className='skillbars'>
        
-        {/* <div className="skillbars">
-          {skillsData.map((item, index) => (
-            <div key={index} className="skillbar">
-              <div className="skill">
-                <img className="skillbarimg" src={item.image} alt={item.title} />
-                <div className="skillbartext">
-                  <h2>{item.title}</h2>
-                  <p>{item.description}</p>
-                  <div className="skills-list">
-                {item.skills.map((skill, skillIndex) => (
-                  <div key={skillIndex} className="skill-item">
-                    {skill}
-                  </div>
-                ))}
-              </div>
-                </div>
-              </div>
-              <br />
-              
-            </div>
-          ))}
-        </div> */}
+      
 
 {skillsData.map((item, index) => (
   <div key={index} className="skillbar">
