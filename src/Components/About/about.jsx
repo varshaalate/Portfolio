@@ -18,8 +18,9 @@ const about = () => {
                 </div>
                 <div className="about-right">
                     <div className="about-para">
-                        <p>Hello! I’m Varsha Alate, an enthusiastic and results-driven web developer with a strong focus on crafting engaging, user-centered digital experiences. My journey in tech began with a fascination for combining technology and creativity, which quickly developed into a career centered on building responsive, efficient, and visually compelling solutions that work seamlessly across platforms. I approach each project with a commitment to performance, accessibility, and design that enhances user interaction.</p>
-                        <p>Dedicated to continuous learning, I bring a fresh, innovative perspective to every project, with a reputation for attention to detail, collaboration, and a proactive problem-solving mindset. I’m passionate about using technology to solve real-world challenges and am excited to connect with fellow professionals to make a meaningful impact in the digital landscape.</p>
+                        <p>Hello! I’m Varsha Alate, a passionate and results-driven Full Stack Web Developer with hands-on experience in building responsive, user-centric web and mobile applications. I specialize in technologies such as Angular, Ionic, Laravel, and MySQL, and enjoy creating clean, efficient interfaces paired with robust backend functionality. My work reflects a strong commitment to performance, accessibility, and design that enhances user interaction across platforms.</p>
+                        <p>
+                            I thrive in collaborative environments and bring a proactive mindset to every project. With a solid foundation in UI/UX principles, RESTful APIs, and component-based architecture, I focus on delivering solutions that solve real-world problems. I am constantly learning and refining my skills to stay current in the fast-evolving tech landscape and am excited to contribute to meaningful, high-impact digital products.</p>
                     </div>
 
                     <div className="about-skills">
@@ -140,9 +141,9 @@ const about = () => {
                         </div>
 
                         <div className="aboutskills">
-                            <p>DOCKER</p>
+                            <p>Docker</p>
                             <div className="progress-container">
-                                <div className="progress-bar" style={{ width: '20%' }}></div>
+                                <div className="progress-bar" style={{ width: '22%' }}></div>
                             </div>
                             <span className="percentage">20%</span>
                         </div>
