@@ -104,6 +104,14 @@ const about = () => {
                             <span className="percentage">45%</span>
                         </div>
 
+                         <div className="aboutskills">
+                            <p>Rest API's</p>
+                            <div className="progress-container">
+                                <div className="progress-bar" style={{ width: '45%' }}></div>
+                            </div>
+                            <span className="percentage">45%</span>
+                        </div>
+
                         <div className="aboutskills">
                             <p>React</p>
                             <div className="progress-container">
