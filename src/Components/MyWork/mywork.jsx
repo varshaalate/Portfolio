@@ -1,7 +1,6 @@
 import React from 'react'
 import './mywork.css'
 import theme from '../../assets/theme_pattern.svg'
-// import arrow from '../../assets/arrow_icon.svg'
 import app from '../../assets/app.jpeg'
 import port from '../../assets/port.png'
 import game from '../../assets/game.png'
@@ -15,7 +14,7 @@ const mywork = () => {
       description:
         'Developed a mobile application to streamline agent-client communication, providing real-time access to agent details and facilitating seamless interaction. Contributed to the Admin Panel to support user management, data entry, and reporting. Led the transition from paper-based to digital processes, implementing end-to-end tracking for product handling and location to enable real-time monitoring and lifecycle analysis, significantly enhancing operational efficiency.',
       image: app,
-      skills: ['Angular', 'Ionic', 'HTML', 'CSS', 'JavaScript' , 'Typescript'],
+      skills: ['Angular', 'Ionic', 'HTML', 'CSS', 'JavaScript' , 'Typescript' , 'SQL'],
     },
     {
       title: 'Personal Portfolio',

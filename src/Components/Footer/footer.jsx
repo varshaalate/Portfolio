@@ -1,4 +1,3 @@
-import React from 'react'
 import './footer.css'
 import footerimg from '../../assets/name1.png'
 import user from '../../assets/user_icon.svg'
@@ -9,7 +8,6 @@ const footer = () => {
         <div className="footer-top">
             <div className="footer-topleft">
                 <img src={footerimg} alt="Footer" />
-                {/* <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore libero maiores voluptates asperiores veniam.</p> */}
             </div>
             <div className="footer-topright">
                 <div className="footer-email-input">

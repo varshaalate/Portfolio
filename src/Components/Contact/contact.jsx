@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import './contact.css';
 import theme from '../../assets/theme_pattern.svg';
 import mail from '../../assets/mail_icon.svg';
@@ -88,7 +88,7 @@ const Contact = () => {
             </div>
             <div className="contactdetail">
               <img src={location} alt="Location" />
-              <p>Kolhapur</p>
+              <p>Mangaon , Kolhapur</p>
             </div>
           </div>
         </div>

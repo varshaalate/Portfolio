@@ -1,4 +1,3 @@
-import React from 'react'
 import './hero.css'
 import profile from '../../assets/varshaalate.png'
 import AnchorLink from 'react-anchor-link-smooth-scroll'
@@ -13,7 +12,7 @@ const hero = () => {
             <div className="hero-connect"><AnchorLink className='anchor-link' offset={50} href='#contact'>Connect With Me</AnchorLink></div>
             <div className="hero-resume"><a href="/varsha.pdf" download="Varsha Alate Resume.pdf" className='download-link'>My Resume</a>
             </div>
-            {/* <a  href="/Varsha_Alate_Resume.pdf" download="Varsha_Alate_Resume.pdf" className='download-link'>My Resume</a> */}
+           
 
         </div>
     </div>
