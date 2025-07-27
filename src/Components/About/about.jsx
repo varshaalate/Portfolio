@@ -33,7 +33,7 @@ const about = () => {
                         </div>
 
                         <div className="aboutskills">
-                            <p>C </p>
+                            <p>C Programming</p>
                             <div className="progress-container">
                                 <div className="progress-bar" style={{ width: '65%' }}></div>
                             </div>
@@ -159,7 +159,7 @@ const about = () => {
                         <div className="aboutskills">
                             <p>Docker</p>
                             <div className="progress-container">
-                                <div className="progress-bar" style={{ width: '22%' }}></div>
+                                <div className="progress-bar" style={{ width: '20%' }}></div>
                             </div>
                             <span className="percentage">20%</span>
                         </div>
