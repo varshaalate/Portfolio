@@ -41,7 +41,7 @@ const services = () => {
       ];
     
       const experienceData = [
-        {title: 'Full Stack Developer Trainee', Duration: 'Aug 2023 - Present', name:'Mysoftway Technology and IT Consultancy , Ichalkarnji',Tech:'Angular and Ionic Framework , HTML & CSS , Laravel' },
+        {title: 'Full Stack Developer Trainee', Duration: 'Aug 2023 - Present', name:'Mysoftway Technology and IT Consultancy , Ichalkarnji',Tech:'Angular and Ionic Framework , HTML & CSS , Laravel,SQL' },
         // { icon: 'fa-tasks', title: 'Projects', details: 'Details about projects or other work experiences.' },
       ];
     
