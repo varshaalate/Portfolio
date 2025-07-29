@@ -79,7 +79,7 @@ const Newnavbar = () => {
 
                 <li>
                     <AnchorLink className='anchor-link' offset={50} href='#services'>
-                        <p onClick={() => setMenu("services")}>Career</p>
+                        <p onClick={() => setMenu("services")}>Career Contour</p>
                     </AnchorLink>
                     {menu === "services" && <img src={underline} alt="Underline" />}
                 </li>
