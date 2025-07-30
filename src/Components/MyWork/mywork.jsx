@@ -36,7 +36,7 @@ const mywork = () => {
       description:
         'Developing a student portal application using Angular, Laravel, and Ionic to simplify access to academic information and streamline application processes. Creating an admin interface to manage content and student data, aiming to reduce manual administrative tasks by 70%. Enhancing the frontend structure for improved mobile responsiveness and a better overall user experience.',
       image: a2zadmission,
-      skills: ['Angular', 'Ionic', 'Laravel', 'Typescript', 'HTML', 'CSS'],
+      skills: ['Angular Framework', 'Ionic Framework', 'Laravel', 'Typescript', 'HTML', 'CSS'],
     },
   ];
   return (
