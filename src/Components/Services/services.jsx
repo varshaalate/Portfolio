@@ -50,7 +50,7 @@ const services = () => {
        
       <div id="services" className="services">
         <div className="services-title">
-          <h1>Education & Industry Experience</h1>
+          <h1>Career Contour</h1>
           <img src={theme} alt="Theme" />
         </div>
       </div>

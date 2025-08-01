@@ -19,7 +19,7 @@ const footer = () => {
         </div>
         <hr />
         <div className="footer-bottom">
-            <p className="footer-bottom-left">@ 2024 Varsha alate. All rights reserved</p>
+            <p className="footer-bottom-left">@ 2024 Varsha Alate. All rights reserved</p>
             <div className="footer-bottom-right">
                 <p>Term of services</p>
                 <p>Privacy Policy</p>
