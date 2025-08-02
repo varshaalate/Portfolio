@@ -30,7 +30,7 @@ const services = () => {
           {title && <h2 style={{fontSize:"25px"}}>{title}</h2>}
           {Duration && <h3>{Duration}</h3>}
           {name && <p>{name}</p>}
-          {name && <p style={{fontSize:'14px'}}>Technologies : {Tech}</p>}
+          {name && <p style={{fontSize:'14px'}}>Technology Stack : {Tech}</p>}
         </div>
       </div>
       );

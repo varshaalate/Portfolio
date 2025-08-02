@@ -14,14 +14,14 @@ const mywork = () => {
       description:
         'Developed a mobile application to streamline agent-client communication, providing real-time access to agent details and facilitating seamless interaction. Contributed to the Admin Panel to support user management, data entry, and reporting. Led the transition from paper-based to digital processes, implementing end-to-end tracking for product handling and location to enable real-time monitoring and lifecycle analysis, significantly enhancing operational efficiency.',
       image: app,
-      skills: ['Angular', 'Ionic', 'HTML', 'CSS', 'JavaScript' , 'Typescript' , 'SQL'],
+      skills: ['Angular Framework', 'Ionic', 'HTML', 'CSS', 'JavaScript', 'Typescript', 'SQL'],
     },
     {
       title: 'Personal Portfolio',
       description:
         'Built a personal portfolio website to showcase my projects and skills. Designed and implemented a responsive layout using React, HTML, and CSS to provide an engaging user experience. The portfolio includes project showcases, a bio section, and contact information.',
       image: port,
-      skills: ['React', 'HTML', 'CSS' , 'Javascript'],
+      skills: ['React', 'HTML', 'CSS', 'Javascript'],
     },
     {
       title: 'Connect 4 Game',
@@ -45,34 +45,34 @@ const mywork = () => {
         <h1>My Latest Work</h1>
         <img src={theme} alt="Theme" />
       </div>
-    
-      <div className='skillbars'>
-       
-      
 
-{skillsData.map((item, index) => (
-  <div key={index} className="skillbar">
-    <div className="skill">
-      <img
-        className={`skillbarimg skillbarimg-${index}`} // Assign unique class
-        src={item.image}
-        alt={item.title}
-      />
-      <div className="skillbartext">
-        <h2>{item.title}</h2>
-        <p>{item.description}</p>
-        <div className="skills-list">
-          {item.skills.map((skill, skillIndex) => (
-            <div key={skillIndex} className="skill-item">
-              {skill}
+      <div className='skillbars'>
+
+
+
+        {skillsData.map((item, index) => (
+          <div key={index} className="skillbar">
+            <div className="skill">
+              <img
+                className={`skillbarimg skillbarimg-${index}`} // Assign unique class
+                src={item.image}
+                alt={item.title}
+              />
+              <div className="skillbartext">
+                <h2>{item.title}</h2>
+                <p>{item.description}</p>
+                <div className="skills-list">
+                  {item.skills.map((skill, skillIndex) => (
+                    <div key={skillIndex} className="skill-item">
+                      {skill}
+                    </div>
+                  ))}
+                </div>
+              </div>
             </div>
-          ))}
-        </div>
-      </div>
-    </div>
-    <br />
-  </div>
-))}
+            <br />
+          </div>
+        ))}
 
       </div>
     </div>
