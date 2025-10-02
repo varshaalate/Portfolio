@@ -99,9 +99,9 @@ const about = () => {
                         <div className="aboutskills">
                             <p>JSON</p>
                             <div className="progress-container">
-                                <div className="progress-bar" style={{ width: '55%' }}></div>
+                                <div className="progress-bar" style={{ width: '60%' }}></div>
                             </div>
-                            <span className="percentage">55%</span>
+                            <span className="percentage">60%</span>
                         </div>
 
                         <div className="aboutskills">
@@ -121,20 +121,19 @@ const about = () => {
                         </div>
 
                         <div className="aboutskills">
-                            <p>React</p>
-                            <div className="progress-container">
-                                <div className="progress-bar" style={{ width: '40%' }}></div>
-                            </div>
-                            <span className="percentage">40%</span>
-                        </div>
-
-
-                        <div className="aboutskills">
                             <p>Git</p>
                             <div className="progress-container">
                                 <div className="progress-bar" style={{ width: '45%' }}></div>
                             </div>
                             <span className="percentage">45%</span>
+                        </div>
+
+                        <div className="aboutskills">
+                            <p>React</p>
+                            <div className="progress-container">
+                                <div className="progress-bar" style={{ width: '40%' }}></div>
+                            </div>
+                            <span className="percentage">40%</span>
                         </div>
 
 
