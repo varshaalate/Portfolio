@@ -174,7 +174,7 @@ const about = () => {
                 </div>
                 <hr />
                 <div className="aboutachievements">
-                    <h1>2+</h1>
+                    <h1>#+</h1>
                     <p>Projects Completed</p>
                 </div>
                 <hr />
